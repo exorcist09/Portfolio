@@ -20,6 +20,7 @@ import {
 import Link from "next/link";
 
 import { Dock, DockIcon } from "../components/magicui/dock";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -102,10 +103,11 @@ export default function Home() {
               </Link>
               <Link href="https://leetcode.com/exorcist09" target="_blank">
                 <div className="h-12 w-12 flex items-center justify-center rounded-full bg-white hover:bg-gray-100 transition-colors border border-gray-300">
-                  <img
+                  <Image
                     src="/img/leetcode.svg"
                     alt="leetcode"
                     className="h-5 w-5"
+                    width={500} height={300}
                   />
                 </div>
               </Link>

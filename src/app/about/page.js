@@ -27,6 +27,8 @@ export default function About() {
   const skills = [
     { src: "/img/java.png", alt: "Java", tag: "Java", link: "#" },
     { src: "/img/python.webp", alt: "Python", tag: "Python", link: "#" },
+    { src: "/img/cplusplus.png", alt: "C++", tag: "C++", link: "#" },
+    { src: "/img/html.png", alt: "HTML", tag: "HTML", link: "#" },
     {
       src: "/img/javascript.png",
       alt: "JavaScript",
@@ -39,9 +41,7 @@ export default function About() {
       tag: "TypeScript",
       link: "#",
     },
-    { src: "/img/cplusplus.png", alt: "C++", tag: "C++", link: "#" },
     { src: "/img/css.png", alt: "CSS", tag: "CSS", link: "#" },
-    { src: "/img/html.png", alt: "HTML", tag: "HTML", link: "#" },
     { src: "/img/react.png", alt: "React", tag: "React", link: "#" },
     { src: "/img/nodejs.png", alt: "Node.js", tag: "Node.js", link: "#" },
     {
@@ -132,19 +132,19 @@ export default function About() {
             </h1>
             <div className="space-y-4 sm:space-y-6 text-base sm:text-lg font-medium text-justify px-4 sm:px-8 lg:px-0 max-w-full">
               <p>
-                Hello! I'm Adarsh Verma, a dedicated Full Stack Developer
+                Hello! I&apos;m Adarsh Verma, a dedicated Full Stack Developer
                 specializing in Backend Development. I am passionate about
                 crafting robust, scalable, and user-focused web applications
                 that prioritize performance and seamless user experiences.
               </p>
               <p>
                 I am currently pursuing a{" "}
-                <b>Bachelor's degree in Manufacturing Engineering</b> at the
+                <b>Bachelor&apos;s degree in Manufacturing Engineering</b> at the
                 <b>
                   {" "}
                   Indian Institute of Information Technology, Jabalpur (IIITJ)
                 </b>
-                , with an expected graduation in 2026. During my studies, I'm
+                , with an expected graduation in 2026. During my studies, I&apos;m
                 developing a strong foundation in systems thinking,
                 problem-solving, and the integration of modern technologies.
               </p>

@@ -150,7 +150,7 @@ export default function Contact() {
             {/* Right side - Social links */}
             <div className="space-y-8 ">
               <div className="text-2xl sm:text-3xl mb-8 text-gray-500">
-                Let's
+                Let&apos;s
                 <br />
                 Connect
                 <br />
